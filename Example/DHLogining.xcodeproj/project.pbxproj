@@ -226,7 +226,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				23DDCD4A8CB9C93789A3527A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,28 +295,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		23DDCD4A8CB9C93789A3527A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DHLogining_Tests/Pods-DHLogining_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DHLogining_Tests/Pods-DHLogining_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6322F4A348E462F0EFDDB54F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,7 +347,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DHLogining_Example/Pods-DHLogining_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-DHLogining_Example/Pods-DHLogining_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DHLogining/DHLogining.framework",
 				"${BUILT_PRODUCTS_DIR}/DHNetworking/DHNetworking.framework",
 			);
@@ -383,7 +360,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DHLogining_Example/Pods-DHLogining_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DHLogining_Example/Pods-DHLogining_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

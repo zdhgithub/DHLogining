@@ -9,6 +9,6 @@ target 'DHLogining_Example' do
   target 'DHLogining_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+#    pod 'FBSnapshotTestCase'
   end
 end

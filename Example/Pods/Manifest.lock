@@ -2,20 +2,10 @@ PODS:
   - DHLogining (0.1.0):
     - DHNetworking
   - DHNetworking (0.1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
 
 DEPENDENCIES:
   - DHLogining (from `../`)
   - DHNetworking (from `../../DHNetworking`)
-  - FBSnapshotTestCase
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   DHLogining:
@@ -24,10 +14,9 @@ EXTERNAL SOURCES:
     :path: "../../DHNetworking"
 
 SPEC CHECKSUMS:
-  DHLogining: e6c427197bca9016bdc4986d69afbf87deef9f9a
-  DHNetworking: 6e32c5857ee3f332d1c0b332e8484ce78772bdde
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  DHLogining: f102c6f90b17e1c099902bc207c64433e0433000
+  DHNetworking: b48e13ca986c394edd0968a04ffc471ac7e9d11a
 
-PODFILE CHECKSUM: 775b9e578578bfb7ef968d74c03e45a0e641a21e
+PODFILE CHECKSUM: 67d2d6e7c7955f2ffd71b2107657ae0269aa4490
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

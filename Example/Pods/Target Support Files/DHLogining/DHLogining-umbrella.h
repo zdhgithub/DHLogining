@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "DHLogining.h"
 
 FOUNDATION_EXPORT double DHLoginingVersionNumber;
 FOUNDATION_EXPORT const unsigned char DHLoginingVersionString[];
