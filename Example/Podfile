@@ -4,6 +4,7 @@ platform :ios, '8.0'
 
 target 'DHLogining_Example' do
   pod 'DHLogining', :path => '../'
+  pod 'DHNetworking', :path => '../../DHNetworking'
 
   target 'DHLogining_Tests' do
     inherit! :search_paths

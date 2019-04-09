@@ -1,0 +1,6 @@
+framework module DHLogining {
+  umbrella header "DHLogining-umbrella.h"
+
+  export *
+  module * { export * }
+}

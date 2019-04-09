@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		3010686BD1B927C6574B5D9D /* Pods-DHLogining_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHLogining_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHLogining_Example/Pods-DHLogining_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		39268A2B69CE56BACD369355 /* Pods-DHLogining_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHLogining_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHLogining_Tests/Pods-DHLogining_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		53EDE6B3EC2A154D51E494FB /* DHLogining.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DHLogining.podspec; path = ../DHLogining.podspec; sourceTree = "<group>"; };
+		53EDE6B3EC2A154D51E494FB /* DHLogining.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DHLogining.podspec; path = ../DHLogining.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		58CE36BCD5F452D6441B3B9A /* Pods_DHLogining_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHLogining_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* DHLogining_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHLogining_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		916FD3E9653EA73F0FBAF3C4 /* Pods-DHLogining_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHLogining_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHLogining_Tests/Pods-DHLogining_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF8D3B9363B330A2AE660309 /* Pods_DHLogining_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHLogining_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F5DFA7D83B73778870AAEC /* Pods-DHLogining_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHLogining_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHLogining_Example/Pods-DHLogining_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F764190FAFC4C90BD962E329 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FA0CF84D8E09785698A2BB01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F764190FAFC4C90BD962E329 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FA0CF84D8E09785698A2BB01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -371,12 +372,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DHLogining_Example/Pods-DHLogining_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DHLogining/DHLogining.framework",
+				"${BUILT_PRODUCTS_DIR}/DHNetworking/DHNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DHLogining.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DHNetworking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
